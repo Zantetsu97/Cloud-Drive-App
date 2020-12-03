@@ -1,0 +1,9 @@
+DataFolders = dict()
+DataInput = YourDataGoesHere
+
+def sortAndFolderize(input):
+    for x in input:
+        if (x.dataType in DataFolders.keys) DataFolders[x.dataType].add(x)
+        else:
+            DataFolders.add(x.dataType, newFolder())
+            DataFolders[x.dataType].add(x.dataType)
